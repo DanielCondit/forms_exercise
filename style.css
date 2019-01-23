@@ -1,7 +1,23 @@
-h1 {
-	color:red;
+body, .formLabels {
+	margin: 0 !important;
 }
 
-form {
-	display: inline;
+body h2{
+	text-align: center;
+}
+
+label, input {
+	margin: 2px 0px 2px 0px 
+}
+
+.formWrapper {
+	width: 50%;
+	margin: 0% 25% 0 25%;
+}
+
+.formLabels {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	font-weight: bold;
 }
